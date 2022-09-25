@@ -1,0 +1,15 @@
+https://github.com/Akiranred/candy-crush
+
+22:50: sudo yum -y install httpd
+   93  httpd
+   94  sudo systemctl status httpd
+   95  sudo systemctl start httpd
+   96  sudo systemctl enable httpd
+   97  sudo systemctl status httpd
+   98  sudo netsat -ntpl
+   99  sudo netstat -ntpl
+  100  sudo vi /etc/httpd/conf/httpd.conf
+  101  ls /var/www/html/
+  102  sudo git clone https://github.com/Akiranred/candy-crush.git /var/www/html/
+  103  ls  /var/www/html/
+
